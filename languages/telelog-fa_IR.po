@@ -1,0 +1,182 @@
+# Copyright (C) 2021 Mahdyar Hasanpour
+# This file is distributed under the GPL-3.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: TeleLog 1.0.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/telelog\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-08-24T11:01:10+00:00\n"
+"PO-Revision-Date: 2021-10-07 11:21+0330\n"
+"X-Generator: Poedit 3.0\n"
+"X-Domain: telelog\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"Language: fa\n"
+
+#. Plugin Name of the plugin
+#: inc/Pages/Admin.php:38 templates/index.php:1
+msgid "TeleLog"
+msgstr "تله‌لاگ"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/mahdyar/telelog"
+msgstr "‫https://github.com/mahdyar/telelog"
+
+#. Description of the plugin
+msgid "Keep track of everything happening on your WordPress in Telegram."
+msgstr "از هر اتفاقی که در وردپرس‌تان می‌اُفتد در تلگرام با خبر شوید."
+
+#. Author of the plugin
+msgid "Mahdyar Hasanpour"
+msgstr "مهدیار حسن‌پور"
+
+#. Author URI of the plugin
+msgid "https://mahdyar.me"
+msgstr "https://mahdyar.me"
+
+#: inc/Base/SettingsLinks.php:19 inc/Pages/Admin.php:48
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: inc/Pages/Admin.php:49
+msgid "Hooks"
+msgstr "هوک‌ها"
+
+#: inc/Pages/Admin.php:51
+msgid "API Key"
+msgstr "کلید اِی‌پی‌آی"
+
+#: inc/Pages/Admin.php:52
+msgid "Chat ID"
+msgstr "چت‌آیدی"
+
+#: inc/Pages/Admin.php:54
+msgid "Post Publish"
+msgstr "انتشار پست"
+
+#: inc/Pages/Admin.php:55
+msgid "Post Update"
+msgstr "به‌روزرسانی پست"
+
+#: inc/Pages/Callbacks/AdminCallbacks.php:42
+msgid ""
+"Set your Telegram bot token and your chat id which can be either your own "
+"user id or a channel username with an at sign."
+msgstr ""
+"توکن ربات تلگرام‌تان و چت‌آیدی‌تان را که می‌تواند یوزرآیدی خودتان و یا یک نام "
+"کاربری کانال باشد به همراه ات‌ساین را وارد کنید."
+
+#: inc/Pages/Callbacks/AdminCallbacks.php:42
+msgid "Learn more"
+msgstr "اطلاعات بیشتر"
+
+#: inc/Pages/Callbacks/AdminCallbacks.php:59
+msgid "Choose on which hooks should TeleLog send you a message."
+msgstr "انتخاب کنید تله‌لاگ برای چه هوک‌هایی شما را مطلع کند."
+
+#: inc/Pages/Callbacks/AdminCallbacks.php:66
+msgid "Let you know when a post is updated."
+msgstr "وقتی یک پست به‌روزرسانی شد به من اطلاع بده."
+
+#: inc/Pages/Callbacks/AdminCallbacks.php:75
+msgid "Let you know when a post is published."
+msgstr "وقتی یک پست منتشر شد به من اطلاع بده."
+
+#: inc/Telegram/PostTransition.php:30
+msgid "By"
+msgstr "توسط"
+
+#: inc/Telegram/PostTransition.php:32
+msgid "Post published"
+msgstr "پست جدید"
+
+#: inc/Telegram/PostTransition.php:36
+msgid "Post updated"
+msgstr "به‌روزرسانی پست"
+
+#: inc/Telegram/PostComment.php:30
+msgid "New comment"
+msgstr "کامنت جدید"
+
+#: inc/Pages/Callbacks/AdminCallbacks.php:144
+msgid "Let you know when a comment is posted."
+msgstr "وقتی یک کامنت گذاشته شد به من اطلاع بده."
+
+#: inc/Pages/Admin.php:59
+msgid "Login fail"
+msgstr "ورود ناموفق"
+
+#: inc/Pages/Callbacks/AdminCallbacks.php:173
+msgid "Let you know when an attemp to login is failed."
+msgstr "وقتی یک ورود ناموفق اتفاق افتاد به من اطلاع بده."
+
+#: inc/Pages/Callbacks/AdminCallbacks.php:101
+msgid "Enable all"
+msgstr "فعال کردن همه"
+
+#: inc/Pages/Callbacks/AdminCallbacks.php:101
+msgid "Disable all"
+msgstr "غیرفعال کردن همه"
+
+#: inc/Pages/Admin.php:178
+msgid "User registeration"
+msgstr "ثبت نام کاربر"
+
+#: inc/Pages/Callbacks/AdminCallbacks.php:178
+msgid "Let you know when a new user registers."
+msgstr "وقتی یک کاربر جدید ثبت نام کرد به من اطلاع بده."
+
+#: inc/Telegram/RegisterUser.php:28
+msgid "New user registered"
+msgstr "ثبت نام کاربر جدید"
+
+#: inc/Pages/Admin.php:190
+msgid "Theme switch"
+msgstr "تغییر پوسته"
+
+#: inc/Pages/Callbacks/AdminCallbacks.php:198
+msgid "Let you know when the theme is switched."
+msgstr "وقتی پوسته تغییر کرد به من اطلاع بده."
+
+#: inc/Telegram/ThemeSwitch.php:28
+msgid "Theme switched"
+msgstr "پوسته تغییر کرد"
+
+#: inc/Pages/Admin.php:166
+msgid "Plugin activation"
+msgstr "فعال‌‌کردن افزونه"
+
+#: inc/Pages/Callbacks/AdminCallbacks.php:175
+msgid "Let you know when a plugin is activated."
+msgstr "وقتی یک افزونه فعال شد به من اطلاع بده."
+
+#: inc/Telegram/PluginActivate.php:31
+msgid "Plugin activated"
+msgstr "افزونه فعال شد"
+
+#: inc/Pages/Admin.php:178
+msgid "Plugin deactivation"
+msgstr "غیرفعال‌کردن افزونه"
+
+#: inc/Pages/Callbacks/AdminCallbacks.php:185
+msgid "Let you know when a plugin is deactivated."
+msgstr "وقتی یک افزونه غیرفعال شد به من اطلاع بده."
+
+#: inc/Telegram/PluginDeactivate.php:31
+msgid "Plugin deactivated"
+msgstr "افزونه غیرفعال شد"
+
+#: inc/Pages/Admin.php:188
+msgid "WooCommerce New order"
+msgstr "سفارش جدید ووکامرس"
+
+#: inc/Pages/Callbacks/AdminCallbacks.php:196
+msgid "Let you know when a new order in Woocommerce is submited."
+msgstr "وقتی یک سفارش جدید در ووکامرس ثبت شد به من اطلاع بده."
+
+#: inc/Telegram/WooCommerce/WooCommerceOrderNew.php:37
+msgid "New WooCommerce order"
+msgstr "سفارش جدید ووکامرس"
